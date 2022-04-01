@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <Button
+        android:id="@+id/showToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="#042727"
+        android:onClick="onBack"
+        android:text="INAPOI" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imagine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/imag4" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="145dp"
+        android:orientation="vertical">
+
+        <ScrollView
+
+            android:layout_width="348dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:text="Eu, Lorin Fortuna combatant ezoteric complex și corect privind din punct de vedere ezoteric prin rangul
+ezoteric precum și prin distincţiile ezoterice care mi-au fost conferite de către conducători supremi
+abilitaţi, blestem ezoteric la nivelul maxim posibil la care dau dreptul rangul și distinctiile ezoterice
+care mi-au conferite menţionate anterior. Blestem fără sfârşit temporar în mod direct împotriva fiinţei
+colective superioare de tip civilizaţie virtuală numită: civilizaţia virtuală arahnidica tarantulara, a
+ndrogina, neagră, emoţional agresională civilizațională condusă la nivel de conducător suprem de către
+fiinţa superioară androgină alcătuită din: ființa individuală superioară de gen masculin numită Satanos
+și fiinţa individuală superioară de gen feminin numită Geea, pentru răul existenţial comis împotriva
+grupării de civilizaţie virtuale de tip gorilian individual neagresională civilizațional și autentic
+băștinașe în cadrul lumilor planetare ale planetei al cărei lume planetare medie sunt integrate
+existenţial cu precizarea că, răul existenţial pentru care blestem civilizaţia virtuală pe
+care am numit-o anterior ultim ca civilizaţie agresională civilizațional a fost comis în perioada temporală
+specifică calendarului planetar cuprins între data de început în care s-a dat în funcțiune oficial prima bază
+civilizațională planetară în cadrul zonei existenţiale a planetei a cărei lume planetară medie sunt integrate
+existențial aferentă și mă refer la zona existențial în cauză și la concret la baza existențială civilizațională
+virtuală planetară în cauza deci aferentă civilizației virtuale pe care o blestem și până în prezent."
+                android:textColor="@color/white" />
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

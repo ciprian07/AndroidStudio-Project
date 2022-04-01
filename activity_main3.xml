@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+<!--    <TextView-->
+<!--        android:text="HELLO"-->
+<!--        android:layout_width="139dp"-->
+<!--        android:layout_height="130dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="149dp"-->
+<!--        android:layout_marginBottom="518dp"-->
+<!--        android:id="@+id/AHA"-->
+<!--        />-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="310dp"
+        android:backgroundTint="#042727"
+        android:onClick="on3Back"
+        android:text="INAPOI" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/imag4" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="295dp"
+         />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="106dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="#042727"
+        android:onClick="onNext"
+        android:text="URMATOAREA IMAGINE"
+    />
+
+    <Button
+        android:id="@+id/zoomIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginBottom="170dp"
+        android:backgroundTint="#042727"
+        android:onClick="zoomIn"
+        android:text=" Zoom  in!" />
+
+    <Button
+        android:id="@+id/zoomOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="168dp"
+        android:backgroundTint="#042727"
+        android:onClick="zoomOut"
+        android:text="Zoom Out!" />
+
+
+
+</RelativeLayout>

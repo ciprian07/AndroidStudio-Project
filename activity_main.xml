@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagine"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pic2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginBottom="350dp"
+        android:backgroundTint="#067A7A"
+        android:onClick="onOpen"
+        android:text=" Pentru a 2-a pagina " />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginBottom="300dp"
+        android:backgroundTint="#067A7A"
+        android:onClick="on3Open"
+        android:text=" Penrtu a 3-a pagina " />
+
+</RelativeLayout>
